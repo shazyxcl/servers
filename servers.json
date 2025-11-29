@@ -1,1 +1,21 @@
-
+{
+  "Version: "1.0",
+  "Message: "Free servers",
+  "Servers":[{
+    "Name": "SINGAPORE",
+    "SSHHost": "vczx.kingstores.site",
+    "SSHPort": "22",
+    "DropBear": "109",
+    "SSLPort": "443",
+    "ProxyPort": "80",
+  }],
+  "Tweak": [{
+    "Name": "AXIS/XL OPOK",
+    "Direct": "false",
+    "SSL": "false",
+    "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+    "CustomProxy": "true",
+    "ProxyHost": "api.ovo.id",
+    "ProxyPort": "80",
+  }]
+}
